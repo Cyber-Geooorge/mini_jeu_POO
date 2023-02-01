@@ -9,7 +9,7 @@ require_relative 'lib/player'
 player1 = Player.new("Josiane")
 player2 = Player.new("José")
 
-puts "Le status de nos 2 joueurs"
+puts "L'état de nos 2 joueurs"
 player1.show_state
 player2.show_state
 puts ""
@@ -21,7 +21,7 @@ while player1.life_points > 0 && player2.life_points > 0 do
   player2.attacks(player1)
 
   puts ""
-  puts "Le status de nos 2 joueurs"
+  puts "L'état de nos 2 joueurs"
   player1.show_state
   player2.show_state
   puts ""
